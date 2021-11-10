@@ -1,1 +1,91 @@
+body{
+  background-color: #212d4a;
+  background-color: #495c8a;
+  background-color: #1a2642;
+  font-size: 100%;
+}
 
+p{
+  text-align: justify;
+}
+
+section {
+  clear:both;
+  background-color: rgb(223,223,223);
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 80px;
+  max-width: 80%;
+  height:auto;
+}
+div {
+  background-color: rgb(223,223,223);
+  padding:0px;
+  margin:0px;
+  height:auto;
+}
+.sectionHeader {
+  clear: both;
+  font-size: 1.25em;
+  font-size: 1.5em;
+  text-align:center;
+
+}
+div.sectionHeader h3{
+  font-size: 1.25em;
+  font-size: 1.em;
+  text-align:center;
+}
+#Top{
+  text-align:center;
+  color: rgb(223,223,223);
+}
+section#Top{
+  background-color:inherit;
+  margin-top:10%;
+  margin-bottom: 10%
+  padding:0px;
+}
+section#Top h1{
+  font-size: 3.0em;
+}
+section#About div div div:first-of-type{
+  height:auto;
+  clear: left;
+  float: left;
+  margin:auto;;
+  width:48%;
+}
+section#About div div div:last-of-type{
+  float:left;
+  padding: 0px;
+  padding-left: 2%;
+  margin:auto;
+  width:48%
+}
+section#About img{
+  width:100%;
+  border-radius: 20px;
+}
+section#About{
+  margin-top: 30px;
+  display:flex;
+  /* margin-right: 10px; */
+}
+section#Skills div div div {
+  float: left;
+  height:auto;
+}
+section#Projects div div:nth-of-type(2) {
+  float: left;
+}
+footer {
+  clear:both;
+  color: rgb(223,223,223);
+}
+
+div.collapsible{
+
+}
