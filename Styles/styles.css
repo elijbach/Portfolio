@@ -3,40 +3,60 @@ body{
   background-color: #495c8a;
   background-color: #1a2642;
   font-size: 100%;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 p{
   text-align: justify;
 }
-
+h3, h1{
+  margin: 0px;
+}
 section {
   clear:both;
   background-color: rgb(223,223,223);
-  border-radius: 20px;
-  padding: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* border-radius: 20px; */
+  padding: 0px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin: 80px;
-  max-width: 80%;
+  /* max-width: 80%; */
   height:auto;
+  width:auto;
+
+
+  /* border: 1px solid black; */
 }
 div {
   background-color: rgb(223,223,223);
-  padding:0px;
+  padding:5px;
   margin:0px;
   height:auto;
+  overflow: hidden;
+
+    border: 1px solid black;
 }
 .sectionHeader {
   clear: both;
-  font-size: 1.25em;
   font-size: 1.5em;
   text-align:center;
+  background-color: #8a92a1;
+  color:white;
+  padding: 2px;
+  margin:0px;
+  margin-left: 8px;
 
+   border-radius:5px;
+  width:fit-content;
+  margin-bottom: 8px;
+  margin-top: 5px;
 }
 div.sectionHeader h3{
-  font-size: 1.25em;
-  font-size: 1.em;
+  font-size: 1.2em;
   text-align:center;
+  margin:0px;
+  color: rgb(223,223,223);
+  color: white;
 }
 #Top{
   text-align:center;
@@ -47,21 +67,31 @@ section#Top{
   margin-top:10%;
   margin-bottom: 10%
   padding:0px;
+  width:100%;
 }
 section#Top h1{
   font-size: 3.0em;
+  margin-bottom: 30px;
+}
+section#Top h3{
+  background-color:inherit;
+  width:100%;
 }
 section#About div div div:first-of-type{
   height:auto;
   clear: left;
   float: left;
-  margin:auto;;
+  margin:auto;
   width:48%;
+}
+section#About div div:last-of-type{
+  padding:0px;
 }
 section#About div div div:last-of-type{
   float:left;
   padding: 0px;
-  padding-left: 2%;
+  padding-left: 3%;
+  padding-top:3%;
   margin:auto;
   width:48%
 }
@@ -75,17 +105,16 @@ section#About{
   /* margin-right: 10px; */
 }
 section#Skills div div div {
-  float: left;
   height:auto;
+      width:auto;
+
 }
-section#Projects div div:nth-of-type(2) {
-  float: left;
+
+div#BtnContainer {
+  width:auto;
+
 }
 footer {
   clear:both;
   color: rgb(223,223,223);
-}
-
-div.collapsible{
-
 }
