@@ -1,156 +1,200 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-  body{
-    background-color: #212d4a;
-    background-color: #495c8a;
-    background-color: #1a2642;
-  }
-  #Top{
-    text-align:center;
-    color: rgb(223,223,223);
-  }
-  p{
-    text-align: justify;
-  }
-  .sectionHeader {
-    text-align:center;
-  }
-  section {
-    clear:both;
-    background-color: rgb(223,223,223);
-    border-radius: 20px;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 80px;
-    max-width: 80%;
-    height:auto;
-  }
-  section#Top{
-    background-color:inherit;
-    margin-top:100px;
-    padding:0px;
-  }
-
-  section#Skills div {
-    float: left;
-    height:auto;
-  }
-  section#Projects div {
-    float: left;
-  }
-  section#About div:first-of-type{
-
-    height:auto;
-
-    float: left;
-    margin:0px;
-    border:1px solid;
-    width:50%;
-  }
-  section#About div:last-of-type{
-    float:right;
-    margin:0px;
-    border:1px solid;
-    width:200px;
-    height: 200px;
-  }
-  footer {
-    clear:both;
-    color: rgb(223,223,223);
-  }
-  section#About img{
-    width:75%;
-    border-radius: 20px;
-  }
-  section#About{
-    margin-top: 30px;
-
-    /* margin-right: 10px; */
-  }
-  div.collapsible{
-
-  }
-  </style>
+<link rel="stylesheet" href="Styles/styles.css">
+<link rel="stylesheet" href="Styles/interactives.css">
 </head>
 <body>
 <section id="Top">
-<h1> Eli Wissenbach </h1>
-<h3 class="sectionHeader"> Mechanical Engineering | Chemical Engineering</h3>
+        <h1> Eli Wissenbach </h1>
+        <h3 class="sectionHeader"> Mechanical Engineering | Chemical Engineering</h3>
 </section>
-<section id="About">
+<section  id="About">
   <div>
-    <p> Eli is majoring in Chemical Engineering and Mechanical Engineering, and minoring in Biomedical Engineering at the University of Pittsburgh.
-    <br>
-    <br> He moved to Pittsburgh from coastal Southwest Florida. Eli enjoys playing billiards, going rock climbing, being active in musical theatre. He also loves makerspaces and machine shops, having made several projects in and dedicated numerous volunteer hours to such organizations. His academic interests vary widely: including prosthetics, molecular biology, programming, organic chemistry, and general mechanical design. Eli enjoys challenging himself to learn new subjects and push his understanding of what he is familiar with.
-
-  </p></div><div><img src="Images/iceskating.jpg" alt="A picture of me"></div>
-</section>
-<section id="Skills">
-<h3 class="sectionHeader">Skills</h3>
-  <div class="collapsible">
-    <p> Mechanical Engineering <ul>
-      <li>Autodesk Inventor</li>
-      <li>Auto<abbr title="Computer Aided Design">CAD</abbr></li>
-      <li>SolidWorks</li>
-      <li>CorelDraw</li>
-      <li>VectorWorks</li>
-      <li>Ansys</li>
-      <li>Laser Cutter</li>
-      <li>Drill Press</li>
-      <li>Band Saw</li>
-      <li>3D printer</li>
-      <li>Sewing with Machine or by Hand</li>
-      <li>Soldering</li>
-      <li>Dremel</li>
-      <li>Welding </li>
-    </ul>
-  </p>
+    <div class="sectionHeader">
+      <h3 >About </h3>
+    </div>
+  <div>
+      <div>
+        <p> Eli is majoring in Chemical Engineering and Mechanical Engineering, and minoring in Biomedical Engineering at the University of Pittsburgh.
+        <br>
+        <br> He moved to Pittsburgh from coastal Southwest Florida. Eli enjoys playing billiards, going rock climbing, being active in musical theatre. He also loves makerspaces and machine shops, having made several projects in and dedicated numerous volunteer hours to such organizations. His academic interests vary widely: including prosthetics, molecular biology, programming, organic chemistry, and general mechanical design. Eli enjoys challenging himself to learn new subjects and push his understanding of what he is familiar with.
+        </p>
+      </div>
+      <div><img src="Images/iceskating.jpg" alt="A picture of me"></div>
+    </div>
   </div>
-<div class="collapsible">
-  <p> Chemical Engineering <ul>
-    <li>Aspen</li>
-    <li>Simulink</li>
-  </ul></p>
-</div>
-<div class="collapsible">
-  <p> Molecular Biology <ul>
-    <li>Gel Electrophoresis</li>
-    <li>DNA Maxipreparations/ Minipreparations</li>
-    <li>Gibson Assembly</li>
-    <li>Bacterial Transformations</li>
-    <li>Molecular Cloning</li>
-    <li>GeneWiz (sequencing software)</li>
-    <li>Benchling (DNA sequence design software)</li>
-    <li>Polymerase Chain Reaction (PCR)</li>
-</ul></p>
-</div>
-<div class="collapsible">
-  <p>Programming<ul>
-    <li>C++</li>
-    <li>Java</li>
-    <li>Matlab</li>
-    <li>HTML, CSS, Javascript</li>
-    <li>Python</li>
-  </ul></p>
-</div>
-<div class="collapsible">
-  <p>Art<ul>
-    <li>Photoshop</li>
-    <li>Gimp</li>
-    <li>Audacity</li>
-    <li>Photography</li>
-  </ul></p>
-</div>
-<br style="clear:both"/>
+</section>
+
+
+<section id="Skills">
+  <div>
+    <div class="sectionHeader">
+      <h3 >Skills</h3>
+    </div>
+    <div>
+    <div class="pairs">
+      <div class="singles">
+      <button type="button" class="collapsible"> Mechanical Engineering</button>
+      <div class="BtnContent">
+        <p> <ul>
+          <li>Autodesk Inventor</li>
+          <li>Auto<abbr title="Computer Aided Design">CAD</abbr></li>
+          <li>SolidWorks</li>
+          <li>CorelDraw</li>
+          <li>VectorWorks</li>
+          <li>Ansys</li>
+          <li>Laser Cutter</li>
+          <li>Drill Press</li>
+          <li>Band Saw</li>
+          <li>3D printer</li>
+          <li>Sewing with Machine or by Hand</li>
+          <li>Soldering</li>
+          <li>Dremel</li>
+          <li>Welding </li>
+        </ul>
+      </p>
+    </div>
+    </div>
+  <!-- </div> -->
+    <!-- <div> -->
+    <div class="singles">
+      <button type="button" class="collapsible"> Chemical Engineering</button>
+      <div class="BtnContent">
+        <p> <ul>
+          <li>Aspen</li>
+          <li>Simulink</li>
+        </ul></p>
+      </div>
+    </div>
+    </div>
+    <div class="pairs">
+      <div class="singles">
+      <button type="button" class="collapsible"> Molecular Biology</button>
+      <div class="BtnContent">
+        <p>  <ul>
+          <li>Gel Electrophoresis</li>
+          <li>DNA Maxipreparations/ Minipreparations</li>
+          <li>Gibson Assembly</li>
+          <li>Bacterial Transformations</li>
+          <li>Molecular Cloning</li>
+          <li>GeneWiz (sequencing software)</li>
+          <li>Benchling (DNA sequence design software)</li>
+          <li>Polymerase Chain Reaction (PCR)</li>
+      </ul></p>
+      </div>
+    </div>
+    <!-- </div> -->
+    <!-- <div> -->
+      <button type="button" class="collapsible"> Programming</button>
+      <div class="BtnContent">
+        <p><ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Matlab</li>
+          <li>HTML, CSS, Javascript</li>
+          <li>Python</li>
+        </ul></p>
+      </div>
+    </div>
+    <div class="pairs">
+      <button type="button" class="collapsible"> Art</button>
+      <div class="BtnContent">
+        <p>Art<ul>
+          <li>Photoshop</li>
+          <li>Gimp</li>
+          <li>Audacity</li>
+          <li>Photography</li>
+        </ul></p>
+      </div>
+    </div>
+      <br style="clear:both"/>
+    </div>
+  </div>
 </section>
 
 <section id="Projects">
-  <h3 class="sectionHeader">Projects</h3>
- <div id="BtnContainer">
-   <p> all  mechanical engineering  programming Chemical Engineering  Molecular Biology art</p>
+  <div>
+    <div class="sectionHeader">
+      <h3 >Projects</h3>
+    </div>
+   <div id="BtnContainer">
+     <button type="button" class="btn active" onclick="filterSelection('all')"> Show all</button>
+     <button class="btn" onclick="filterSelection('mechanical')">  Mechanical Engineering</button>
+     <button class="btn" onclick="filterSelection('programming')">  Programming</button>
+     <button class="btn" onclick="filterSelection('chemical')"> Chemical Engineering</button>
+     <!-- <button class="btn" onclick="filterSelection('molecular')">  Molecular Biology</button> -->
+     <button class="btn" onclick="filterSelection('art')"> Art</button>
+   </div>
+   <!-- Portfolio Gallery Grid -->
+ <div class="row">
+   <div class="column mechanical programming">
+     <div class="content">
+       <img src="Images/home_base.jpg" alt="Mountains" style="width:100%">
+       <h4>MediReady</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+   <div class="column mechanical">
+     <div class="content">
+       <img src="Images/Vibrance.jpg" alt="Lights" style="width:100%">
+       <h4>Vibrance</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+   <div class="column mechanical programming">
+     <div class="content">
+       <img src="Images/dance.jpg" alt="Nature" style="width:100%">
+       <h4>DanceParty</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+
+   <div class="column chemical">
+     <div class="content">
+       <!-- <img src="/w3images/cars1.jpg" alt="Car" style="width:100%"> -->
+       <h4>Plant design</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+   <div class="column chemical">
+     <div class="content">
+       <!-- <img src="/w3images/cars2.jpg" alt="Car" style="width:100%"> -->
+       <h4>Heat exchanger design</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+   <div class="column chemical">
+     <div class="content">
+       <!-- <img src="/w3images/cars3.jpg" alt="Car" style="width:100%"> -->
+       <h4>Reaction design</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+
+   <div class="column art">
+     <div class="content">
+       <!-- <img src="/w3images/people1.jpg" alt="People" style="width:100%"> -->
+       <h4>Soundscape</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+   <div class="column art">
+     <div class="content">
+       <!-- <img src="/w3images/people2.jpg" alt="People" style="width:100%"> -->
+       <h4>Scene Design</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+   <div class="column chemical">
+     <div class="content">
+       <!-- <img src="/w3images/people3.jpg" alt="People" style="width:100%"> -->
+       <h4>Controls Report</h4>
+       <p>Lorem ipsum dolor..</p>
+     </div>
+   </div>
+ <!-- END GRID -->
+ </div>
  </div>
 
 
@@ -162,5 +206,6 @@
 </p>
 </footer>
 
+<script src="Javascript\myscripts.js"></script>
 </body>
 </html>
