@@ -102,12 +102,12 @@ button{
   outline:none;
 
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 };
 .collapsible:hover{
   background-color:#ddd;
 }
-.collapsible.active{
+.collapsible.on{
   background-color: #666;
    color: white;
 
@@ -117,17 +117,18 @@ button{
   float:right;
    color: white;
    outline:none;
+   border:none;
   font-weight: bold;
 
 }
-.collapsible.active:after{
+.collapsible.on:after{
   content:"\2212";
 }
 .BtnContent{
   padding:0 18px;
   display: none;
   overflow: hidden;
-  width:auto;
+  width:100%;
   max-width: 100%;
      /* border: 1px solid black; */
 
@@ -137,6 +138,7 @@ button.collapsible::before{
   /* width:auto;
   height:auto; */
      /* border: 1px solid black;  */
+     margin:auto;
 }
 
 .pairs{
@@ -144,18 +146,19 @@ button.collapsible::before{
   clear: both;
   padding:0px;
   margin:0px; */
-  margin: 8px -16px;
+  /* margin: 8px -16px; */
 }
 .pairs,
 .pairs > .singles {
-  padding: 8px;
+  padding: 0px;
+  margin:auto;
 }
 .singles{
-  /* float:left;
+    /* float:left; */
   padding:0px;
-  margin:0px; */
+  margin:0px;
   float: left;
-  width: 50%;
+  /* width: 50%; */
 }
 .pairs::after{
   /* clear:both; */

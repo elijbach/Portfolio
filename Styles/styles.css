@@ -4,6 +4,8 @@ body{
   background-color: #1a2642;
   font-size: 100%;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  padding:0;
+  margin:0;
 }
 
 p{
@@ -34,27 +36,55 @@ div {
   height:auto;
   overflow: hidden;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-.sectionHeader {
+.navbar{
+  position:fixed;
+  top:0;
+
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+
+}
+.navbar a{
+  float:left;
+		    display: block;
+			color:black;
+			text-align: center;
+			padding: 1.5vw;
+			text-decoration: none;
+			font-size: 2vw;
+			font-weight: 900;
+}
+.navbar a:hover{
+			text-decoration:underline;
+			color:black;
+		}
+.sectionHeader  {
+
   clear: both;
   font-size: 1.5em;
   text-align:center;
   background-color: #8a92a1;
   color:white;
-  padding: 2px;
-  margin:0px;
-  margin-left: 8px;
+  padding: 4px;
+
+  /* margin-left: 8px; */
 
    border-radius:5px;
   width:fit-content;
+
+  margin:auto;
   margin-bottom: 8px;
   margin-top: 5px;
+
 }
 div.sectionHeader h3{
   font-size: 1.2em;
   text-align:center;
-  margin:0px;
+  /* margin:0px; */
   color: rgb(223,223,223);
   color: white;
 }
@@ -64,14 +94,20 @@ div.sectionHeader h3{
 }
 section#Top{
   background-color:inherit;
+  margin:0px;
   margin-top:10%;
-  margin-bottom: 10%
+  margin-bottom: 10%;
   padding:0px;
   width:100%;
+}
+section#Top div{
+  margin:auto;
+  background-color: inherit;
 }
 section#Top h1{
   font-size: 3.0em;
   margin-bottom: 30px;
+  text-align: center;
 }
 section#Top h3{
   background-color:inherit;
@@ -106,13 +142,14 @@ section#About{
 }
 section#Skills div div div {
   height:auto;
-      width:auto;
+      width:75%;
+      margin:auto;
 
 }
 
 div#BtnContainer {
   width:auto;
-
+  margin:auto;
 }
 footer {
   clear:both;
