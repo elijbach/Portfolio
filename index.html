@@ -5,9 +5,17 @@
 <link rel="stylesheet" href="Styles/interactives.css">
 </head>
 <body>
+  <div class="navbar">
+    <a href="index.html#About">About</a>
+    <a href="index.html#Skills">Skills</a>
+    <a href="index.html#Projects">Projects</a>
+  </div>
+
 <section id="Top">
+      <div>
         <h1> Eli Wissenbach </h1>
         <h3 class="sectionHeader"> Mechanical Engineering | Chemical Engineering</h3>
+      </div>
 </section>
 <section  id="About">
   <div>
@@ -33,8 +41,8 @@
       <h3 >Skills</h3>
     </div>
     <div>
-    <div class="pairs">
-      <div class="singles">
+
+      <div >
       <button type="button" class="collapsible"> Mechanical Engineering</button>
       <div class="BtnContent">
         <p> <ul>
@@ -58,7 +66,7 @@
     </div>
   <!-- </div> -->
     <!-- <div> -->
-    <div class="singles">
+    <div>
       <button type="button" class="collapsible"> Chemical Engineering</button>
       <div class="BtnContent">
         <p> <ul>
@@ -67,9 +75,9 @@
         </ul></p>
       </div>
     </div>
-    </div>
-    <div class="pairs">
-      <div class="singles">
+
+
+      <div>
       <button type="button" class="collapsible"> Molecular Biology</button>
       <div class="BtnContent">
         <p>  <ul>
@@ -85,7 +93,7 @@
       </div>
     </div>
     <!-- </div> -->
-    <!-- <div> -->
+    <div>
       <button type="button" class="collapsible"> Programming</button>
       <div class="BtnContent">
         <p><ul>
@@ -97,10 +105,10 @@
         </ul></p>
       </div>
     </div>
-    <div class="pairs">
+    <div>
       <button type="button" class="collapsible"> Art</button>
       <div class="BtnContent">
-        <p>Art<ul>
+        <p><ul>
           <li>Photoshop</li>
           <li>Gimp</li>
           <li>Audacity</li>
@@ -118,7 +126,7 @@
     <div class="sectionHeader">
       <h3 >Projects</h3>
     </div>
-   <div id="BtnContainer">
+   <div id="BtnContainer" align="center">
      <button type="button" class="btn active" onclick="filterSelection('all')"> Show all</button>
      <button class="btn" onclick="filterSelection('mechanical')">  Mechanical Engineering</button>
      <button class="btn" onclick="filterSelection('programming')">  Programming</button>
@@ -132,7 +140,7 @@
      <div class="content">
        <img src="Images/home_base.jpg" alt="Mountains" style="width:100%">
        <h4>MediReady</h4>
-       <p>Lorem ipsum dolor..</p>
+       <p>Lorem ipsum dolor..</p> 
      </div>
    </div>
    <div class="column mechanical">
