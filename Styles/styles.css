@@ -151,7 +151,27 @@ div#BtnContainer {
   width:auto;
   margin:auto;
 }
+section#Projects{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.bottom{
+  background-color: inherit;
+  color:white;
+}
+.bottom a{
+  float:right;
+  color:white;
+  text-decoration: none;
+}
+.bottom a:hover{
+  text-decoration: underline;
+}
 footer {
   clear:both;
   color: rgb(223,223,223);
+}
+.contact{
+  float:left;
+  background-color: inherit;
 }
