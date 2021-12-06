@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="Styles/styles.css">
 <link rel="stylesheet" href="Styles/interactives.css">
+<link rel="stylesheet" href="Styles/modals.css">
 </head>
 <body>
   <div class="navbar">
@@ -30,7 +31,7 @@
         <br>
         <br> My work in these fields has led me to:
         <ul>
-          <li>Design a polyethylene plant with a 6 person team</li>
+          <li>Design an Ethylene plant with a 6 person team</li>
           <li>Work with a team to create a musical wearable for students in the local deaf community</li>
           <li>Work with a team to design a discrete medicine storage container that assists users in tracking their doses</li>
           <li>Design an interaface for visualizing the effects of sound mixing on waveforms</li>
@@ -148,16 +149,64 @@
  <div class="row">
    <div class="column mechanical programming">
      <div class="content">
+       <div class="images">
        <img src="Images/home_base.jpg" alt="Mountains" style="width:100%">
+      </div>
        <h4>MediReady</h4>
        <p>A discrete medicine storage container, designed to track missed doses.</p>
+<!--Open modal-->
+       <button class="modal-button" href="#myModal1">Show More</button>
+       <!-- modal-->
+       <div id="myModal1" class="modal">
+         <div class="modal-content">
+           <div class="modal-header">
+             <span class="close">x</span>
+             <h3>MediReady</h3>
+           </div>
+           <div class="modal-body">
+             <div class="modal-img">
+             <img src="Images/home_base.jpg" alt="Mountains" style="width:100%">
+           </div>
+             <p>MediReady discretely stores up to three different medications of any type, from pills to liquids.
+             Custom-made pressure sensors allow container to monitor if the user has missed doses and lights inside notify users of missed doses.
+           An internal calender with information on missed doses can be downloaded by the user to later bring to doctor's appointments, eliminating the
+         work behind manually tracking medication schedules. A matching portable clip stores up to 3 different medications and through bluetooth communicates missed doses
+       to the homebase.</p>
+           </div>
+         </div>
+       </div>
+
      </div>
    </div>
    <div class="column mechanical">
      <div class="content">
-       <img src="Images/Vibrance.JPG" alt="Wearable Pretotype" style="width:100%">
+       <div class="port_images">
+       <img src="Images/Vibrance.JPG" alt="Wearable Pretotype" style="width:100%" class="clipped">
+     </div>
+     <div>
        <h4>Vibrance</h4>
        <p>A musical wearable for local deaf children</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal2">Show More</button>
+              <!-- modal-->
+              <div id="myModal2" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Vibrance</h3>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modal-img">
+                    <img src="Images/Vibrance.JPG" alt="Wearable Pretotype" style="width:100%">
+                  </div>
+                    <p>The Vibrance Monkey is the current iteration of the system with a human-based design,
+                    providing students aged 3-5 in the Deaf community a fun way to experience music and rhythm.
+                  This is done by transmitting the music as vibrations through the wearable backpack.</p>
+                  </div>
+                </div>
+              </div>
+</div>
+
      </div>
    </div>
    <div class="column mechanical programming">
@@ -165,6 +214,26 @@
        <img src="Images/dance.jpg" alt="Nature" style="width:100%">
        <h4>Dance Party in a Box</h4>
        <p>A sound mixer that shows the effects of mixing music on sound waves</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal3">Show More</button>
+              <!-- modal-->
+              <div id="myModal3" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Dance Party in a Box</h3>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modal-img">
+                    <img src="Images/dance.jpg" alt="Nature" style="width:100%">
+                  </div>
+                    <p>The Dance Party in a Box is a portable sound mixer that allows the user to create looping synth music with a reactive light display.
+                    A connected display shows how the synth affects waveforms as the user creates music. By using this synth
+                  the user can visual how different waveforms sound and easily learn the physics behind soundwaves.</p>
+                  </div>
+                </div>
+              </div>
+
      </div>
    </div>
 
@@ -172,21 +241,91 @@
      <div class="content">
        <!-- <img src="/w3images/cars1.jpg" alt="Car" style="width:100%"> -->
        <h4>Plant design</h4>
-       <p>Lorem ipsum dolor..</p>
+       <p>A report on the design of an Ethylene plant</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal4">Show More</button>
+              <!-- modal-->
+              <div id="myModal4" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Plant Design</h3>
+                  </div>
+                  <div class="modal-body">
+                     <iframe src="Papers\Che_613_Design_Project.pdf" width="100%" height="650px">
+                     </iframe>
+                  </div>
+                </div>
+              </div>
+
      </div>
    </div>
    <div class="column chemical">
      <div class="content">
        <!-- <img src="/w3images/cars2.jpg" alt="Car" style="width:100%"> -->
        <h4>Heat exchanger design</h4>
-       <p>Lorem ipsum dolor..</p>
+       <p>A report on a double pipe heat exchanger</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal5">Show More</button>
+              <!-- modal-->
+              <div id="myModal5" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Heat Exchanger Design</h3>
+                  </div>
+                  <div class="modal-body">
+                    <iframe src="Papers\Double_Pipe_HX_Report.pdf" width="100%" height="650px">
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+
      </div>
    </div>
    <div class="column chemical">
      <div class="content">
        <!-- <img src="/w3images/cars3.jpg" alt="Car" style="width:100%"> -->
-       <h4>Reaction design</h4>
-       <p>Lorem ipsum dolor..</p>
+       <h4>Reactor design</h4>
+       <p>A report on batch, pfd, and cstr reactors</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal6">Show More</button>
+              <!-- modal-->
+              <div id="myModal6" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Reactor Design</h3>
+                  </div>
+                  <div class="modal-body">
+                    <iframe src="Papers\Reactor_Progress_Report.pdf" width="100%" height="650px">
+                    </iframe>                  </div>
+                </div>
+              </div>
+
+     </div>
+   </div>
+
+   <div class="column chemical programming">
+     <div class="content">
+       <!-- <img src="/w3images/people3.jpg" alt="People" style="width:100%"> -->
+       <h4>Controls Report</h4>
+       <p>A report on PID control of a small liquid level tank</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal9">Show More</button>
+              <!-- modal-->
+              <div id="myModal9" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Controller Design</h3>
+                  </div>
+                  <div class="modal-body">
+                    <iframe src="Papers\Controls_Progress_Report.pdf" width="100%" height="650px">
+                    </iframe>                  </div>
+                </div>
+              </div>
+
      </div>
    </div>
 
@@ -200,20 +339,60 @@
        <p>A soundscape made in Audacity about a musical alien invasion.</p>
      </div>
    </div>
+
    <div class="column art">
      <div class="content">
        <!-- <img src="/w3images/people2.jpg" alt="People" style="width:100%"> -->
-       <h4>Scene Design</h4>
+       <h4>Scene Design (Twelve Angry Jurors)</h4>
        <p>Lorem ipsum dolor..</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal7">Show More</button>
+              <!-- modal-->
+              <div id="myModal7" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Scene Design (Twelve Angry Jurors)</h3>
+                  </div>
+                  <div class="modal-body">
+                     <div class="modal-img">
+                       <iframe src="Papers\Set_draft.pdf" width="100%" height="400px">
+                       </iframe>
+                                       </div>
+                    <!-- <p>A sound mixer that shows the effects of mixing music on sound waves</p> -->
+                  </div>
+                </div>
+              </div>
+
      </div>
    </div>
-   <div class="column chemical">
+
+   <div class="column art">
      <div class="content">
-       <!-- <img src="/w3images/people3.jpg" alt="People" style="width:100%"> -->
-       <h4>Controls Report</h4>
+       <!-- <img src="/w3images/people2.jpg" alt="People" style="width:100%"> -->
+       <h4>Scene Design (Somewhere)</h4>
        <p>Lorem ipsum dolor..</p>
+       <!--Open modal-->
+              <button class="modal-button" href="#myModal8">Show More</button>
+              <!-- modal-->
+              <div id="myModal8" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">x</span>
+                    <h3>Scene Design (Somewhere)</h3>
+                  </div>
+                  <div class="modal-body">
+                     <div class="modal-img">
+                       <iframe src="Papers\groundplan.pdf" width="100%" height="400px">
+                       </iframe>                  </div>
+                    <!-- <p>A sound mixer that shows the effects of mixing music on sound waves</p> -->
+                  </div>
+                </div>
+              </div>
+
      </div>
    </div>
+
  <!-- END GRID -->
  </div>
  </div>
